@@ -19,17 +19,17 @@ app.get('/ui/madi.png', function (req, res) {
 
 
 
-app.get('/article1 ',function(req,res){
+app.get('/article-one ',function(req,res){
     res.send("Article one is displayed and served here ");
     
 });
 
-app.get('/article2 ',function(req,res){
+app.get('/article-two ',function(req,res){
     res.send("Article second is displayed and served here ");
     
 });
 
-app.get('/article2 ',function(req,res){
+app.get('/article-three ',function(req,res){
     res.send("Article three is displayed and served here ");
     
 });
